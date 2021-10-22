@@ -1,0 +1,12 @@
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\bin\Debug\net5.0\Wizard.Core.deps.json
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\bin\Debug\net5.0\Wizard.Core.dll
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\bin\Debug\net5.0\ref\Wizard.Core.dll
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\bin\Debug\net5.0\Wizard.Core.pdb
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\obj\Debug\net5.0\Wizard.Core.csproj.AssemblyReference.cache
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\obj\Debug\net5.0\Wizard.Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\obj\Debug\net5.0\Wizard.Core.AssemblyInfoInputs.cache
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\obj\Debug\net5.0\Wizard.Core.AssemblyInfo.cs
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\obj\Debug\net5.0\Wizard.Core.csproj.CoreCompileInputs.cache
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\obj\Debug\net5.0\Wizard.Core.dll
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\obj\Debug\net5.0\ref\Wizard.Core.dll
+G:\TestProjects\EL_Ahli_Task\Wizard.Core\obj\Debug\net5.0\Wizard.Core.pdb
