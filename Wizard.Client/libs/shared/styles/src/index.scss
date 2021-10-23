@@ -1,0 +1,56 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/*!
+ * Bootstrap v5.0.1 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import './lib/functions';
+@import './lib/variables';
+@import './lib/mixins';
+@import './lib/utilities';
+
+// Layout & components
+@import './lib/root';
+@import './lib/reboot';
+@import './lib/type';
+@import './lib/images';
+@import './lib/containers';
+@import './lib/grid';
+@import './lib/tables';
+@import './lib/forms';
+@import './lib/buttons';
+
+// @import './lib/transitions';
+// @import './lib/dropdown';
+// @import './lib/button-group';
+// @import './lib/nav';
+// @import './lib/navbar';
+// @import './lib/card';
+// @import './lib/accordion';
+// @import './lib/breadcrumb';
+// @import './lib/pagination';
+// @import './lib/badge';
+// @import './lib/alert';
+// @import './lib/progress';
+// @import './lib/list-group';
+// @import './lib/close';
+// @import './lib/toasts';
+// @import './lib/modal';
+// @import './lib/tooltip';
+// @import './lib/popover';
+// @import './lib/carousel';
+// @import './lib/spinners';
+// @import './lib/offcanvas';
+
+// Helpers
+@import './lib/helpers';
+
+// Utilities
+@import './lib/utilities/api';
+// scss-docs-end import-stack
+

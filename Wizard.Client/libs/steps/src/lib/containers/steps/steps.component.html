@@ -1,0 +1,21 @@
+<div>
+  <button class="btn btn-sm btn-primary" type="button" (click)="addStep()">Add Step</button>
+</div>
+<mat-tab-group (selectedTabChange)="selectedTabChange()">
+  <mat-tab *ngFor="let step of model.allSteps">
+    <ng-template mat-tab-label>
+      <b>
+        {{step.title}}
+      </b>
+      <a (click)="deleteStep(step.id)" class="fs-5 mx-2">
+        <wizard-icon [icon]="'minus'" [cssClass]="'text-danger'"></wizard-icon>
+      </a>
+    </ng-template>
+    <div class="p-2">
+      <wizard-step-items [items]="step.items" (selected)="selectItemForEdit($event)"
+        (deleteItem)="deleteItem($event, step)"></wizard-step-items>
+      <wizard-manage-step-item [disableSubmitBtn]="false" [selectedItem]="model.selectedItemToEdit"
+        (itemSubmitted)="addUpdateItem($event, step)"></wizard-manage-step-item>
+    </div>
+  </mat-tab>
+</mat-tab-group>

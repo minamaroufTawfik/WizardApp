@@ -1,0 +1,27 @@
+<div class="form-login">
+  <form [formGroup]="model.loginForm.form" (ngSubmit)="submit()">
+    <div>
+      <mat-form-field>
+        <input matInput placeholder="User Name" [formControlName]="model.loginForm.modelKeys.username">
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field>
+        <input matInput placeholder="Password" type="password" [formControlName]="model.loginForm.modelKeys.password">
+      </mat-form-field>
+    </div>
+    <div>
+      <div class="col text-center">
+        <div class="text-danger">
+          {{errorMessage}}
+        </div>
+        <button type="submit" class="btn btn-sm btn-primary px-3" [disabled]="disableLoginBtn">
+          <span class="d-flex align-items-center">
+          <b>Log In</b>
+          <wizard-icon *ngIf="disableLoginBtn" [spin]="true" [icon]="'spinner'" class="ms-3"></wizard-icon>
+        </span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

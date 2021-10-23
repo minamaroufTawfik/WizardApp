@@ -1,0 +1,24 @@
+@use 'variables' as var;
+
+simple-snack-bar {
+  button {
+    color: var.$white !important;
+  }
+}
+
+.mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: var.$black !important;
+ }
+
+.mat-form-field-ripple {
+  /*change color of underline when focused*/
+  background-color: var.$black !important;;
+ }
+
+mat-form-field{
+  .mat-form-field-wrapper{
+    width: 100%;
+  }
+}
+

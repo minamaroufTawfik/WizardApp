@@ -1,0 +1,35 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@wizard/auth": ["libs/auth/src/index.ts"],
+      "@wizard/core": ["libs/core/src/index.ts"],
+      "@wizard/public-layout": ["libs/public-layout/src/index.ts"],
+      "@wizard/secure-layout": ["libs/secure-layout/src/index.ts"],
+      "@wizard/shared/assets": ["libs/shared/assets/src/index.ts"],
+      "@wizard/shared/data-access": ["libs/shared/data-access/src/index.ts"],
+      "@wizard/shared/data-models": ["libs/shared/data-models/src/index.ts"],
+      "@wizard/shared/environments": ["libs/shared/environments/src/index.ts"],
+      "@wizard/shared/font-awesome": ["libs/shared/font-awesome/src/index.ts"],
+      "@wizard/shared/material": ["libs/shared/material/src/index.ts"],
+      "@wizard/shared/styles": ["libs/shared/styles/src/index.ts"],
+      "@wizard/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@wizard/shared/utility": ["libs/shared/utility/src/index.ts"],
+      "@wizard/steps": ["libs/steps/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
